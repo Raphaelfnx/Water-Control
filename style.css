@@ -1,0 +1,114 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+main{
+    margin-top: 2,5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.copao{
+    border: 3px solid rgb(45, 77, 105);
+    border-radius: 0px 0px 15px 15px;
+    height: 470px;
+}
+
+ol{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* padding: 30px; */
+}
+
+li{
+    padding: 20px;
+}
+
+.copinhos{
+    margin-top: 120px;
+    display: flex;
+    gap: 100px;
+}
+
+.copo1, .copo2, .copo3, .copo4, .copo5, .copo6, .copo7, .copo8{
+    border: 3px solid aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 120px;
+    width: 80px;
+    border-radius: 0px 0px 15px 15px;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    padding: 40px;
+    width: 1530px;
+}
+
+.zero, .primeira, .segunda, .terceira, .quarta, .quinta, .sexta, .setima{
+    /* background: blue; */
+    width: 150px;
+}
+
+.zero{
+    border-radius: 0px 0px 15px 15px;
+}
+
+@media (max-width: 620px) {
+
+    header{
+        padding: 10px;
+    }
+
+    .copao{
+        height: 250px;
+        font-size: x-small;
+    }
+
+    li{
+        padding: 9.8px;
+    }
+
+    .copinhos{
+        /* flex-direction: column;     */
+        margin-top: 30px;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+
+    footer{
+        font-size: small;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 20px;
+        width: 80%;
+    }
+
+    .copo1, .copo2, .copo3, .copo4, .copo5, .copo6, .copo7, .copo8{
+        height: 80px;
+        width: 50px;
+    }
+}
